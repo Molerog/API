@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.textoGithub{
+    display:flex;
+    justify-content: center;
+    margin-top:1em;
+}
+
+.containerGeneral{
+    border-style: solid;
+    display:flex;
+    min-height: 20vh;
+    justify-content: center;    
+    align-items: center;  
+       
+}
+
+.containerBusqueda{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 30vh;
+    margin:2em;     
+}
+
+#inputText{
+    width:15em;
+    height: 2em;
+}
+
+#inputText2{
+    width:15em;
+    height: 2em;
+}
+
+
+#botonBuscar1{
+    margin:1em;
+    width:12em;
+    height: 2em;
+    margin-left:1.5em;
+    border-radius:5em;
+}
+
+#botonBuscar2{
+    margin:1em;
+    width:12em;
+    height: 2em;
+    margin-left:1.5em;
+    border-radius:5em;
+}
+
+.image{
+    max-width: 15em;
+    max-height: 15em;
+}
+
+.busquedaPerros{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh; 
+    border-style: solid;    
+    border-color: brown;
+}
+
+.botonBuscar2{
+    margin:1em;
+    width:12em;
+    height: 2em;
+    margin-left:1.5em;
+    border-radius:5em;
+}

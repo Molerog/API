@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <header class="textoGithub">
+        <h1>API GITHUB<h1>
+    </header>
+    <main class="containerGeneral">
+        <div class="containerBusqueda">         
+            <input id="inputText"type="text" placeholder="Escribe el nombre">
+            <button id="botonBuscar1"> Buscar </button>
+        </div>
+        <div id="infoUsuarios"></div>
+    </main>
+    <footer>
+    <div class="busquedaPerros">
+        <div class="textoPerros">
+            <h2>API PERROS</h2>
+        </div>
+        <input id="inputText2"type="text" placeholder="Escribe la raza">
+        <button id="botonBuscar2"> Buscar </button>
+        <div id = "perroBuscado"></div>
+    </div>
+        <div id="resultadosPerros"></div>
+        <div id="razaAfgana" class="afgan"></div>
+    </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./logic.js"></script>
+</body>
+</html>
